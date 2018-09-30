@@ -1,3 +1,6 @@
+
+		//How to find max and min no. in the list through less comparisons ? 	//
+
 import java.util.*;
 class OrderStat
 {
@@ -41,7 +44,7 @@ class OrderStat
                         max=arr[i+1];
                 }
             }
-            System.out.println("\nMin="+min+"\nMax ="+max);
+            System.out.println("Min="+min+"\nMax ="+max);
         }
         else
          {
@@ -62,7 +65,7 @@ class OrderStat
                          max=arr[i+1];
                  }
              }
-             System.out.println("\nMin="+min+"\nMax ="+max);
+             System.out.println("Min="+min+"\nMax ="+max);
         }
     }
 }
