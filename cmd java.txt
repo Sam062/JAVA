@@ -1,0 +1,17 @@
+make sure the file name is as same as the class name.
+
+then -
+javac filename.java
+if compiled without any error
+then
+java filename 
+
+end !!
+
+
+// scan char //
+System.out.println("enter the character :");
+char c=sc.next().charAt(0);
+System.out.println("the char is :"+c);
+
+end !!
