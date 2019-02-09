@@ -2,7 +2,6 @@
 		// PRIME NUMBER
 
 import java.util.Scanner;
-import static javafx.application.Platform.exit;
 public class PrimeNo
 {
     public static void main(String[] args)
@@ -36,7 +35,7 @@ private static void prime()
             prime();
             break;
         case 2:
-            exit();
+            System.exit(0);
     }
 }
 }
