@@ -1,7 +1,7 @@
 
 import java.util.*;
 public class DrawingBook {
-    private static int turnL,turnR; // turnL is turns from start and turnR is turns from end.
+    private static int turnL,turnR; // turnL counts from start and turnR counts from end.
     private int pageCount(int n, int p)
     {
         System.out.println("Total pages="+n+" Page to reach="+p);
@@ -13,11 +13,11 @@ public class DrawingBook {
           }
           else
               {
-              for(int i=2;i<p;i=i+2)
+              for(int i=1;i<p;i=i+2)
               {
                   turnL++;
               }
-              for(int i=n;i>p;i=i-2){
+              for(int i=n-1;i>p;i=i-2){
                   turnR++;
               }
           }
@@ -29,11 +29,11 @@ public class DrawingBook {
             }
             else
             {
-                for(int i=2;i<=p;i=i+2)
+                for(int i=1;i<p;i=i+2)
                 {
                     turnL++;
                 }
-                for(int i=n-1;i>p;i=i-2){
+                for(int i=n;i>p;i=i-2){
                     turnR++;
                 }
             }
