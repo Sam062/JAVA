@@ -1,7 +1,13 @@
-git add filename
+git init
+
+git clone {paste url}
 
 git status
 
-git commit -m"msg"
+git add filename (-A)
+
+git status
+
+git commit -a -m"msg"
 
 git push origin master
